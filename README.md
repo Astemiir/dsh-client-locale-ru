@@ -5,7 +5,7 @@ It registers the `ru` language through the public locale API — `locale.addLang
 
 **Coverage:** 63 namespaces, **3119 strings** (`ru-dicts.json`).
 
-English | [中文](README.zh.md) | [Русский](README.ru.md)
+English | [中文](https://github.com/Astemiir/dsh-client-locale-ru/blob/main/docs/README.zh.md) | [Русский](https://github.com/Astemiir/dsh-client-locale-ru/blob/main/docs/README.ru.md)
 
 ## Install
 

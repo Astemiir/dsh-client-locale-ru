@@ -5,7 +5,7 @@
 
 **Объём:** 63 namespace, **3119 строк** (`ru-dicts.json`).
 
-[English](README.md) | [中文](README.zh.md) | Русский
+[English](https://github.com/Astemiir/dsh-client-locale-ru/blob/main/README.md) | [中文](https://github.com/Astemiir/dsh-client-locale-ru/blob/main/docs/README.zh.md) | Русский
 
 ## Установка
 

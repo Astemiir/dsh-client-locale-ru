@@ -5,7 +5,7 @@
 
 **覆盖范围：** 63 个 namespace，**3119 条字符串**（`ru-dicts.json`）。
 
-[English](README.md) | 中文 | [Русский](README.ru.md)
+[English](https://github.com/Astemiir/dsh-client-locale-ru/blob/main/README.md) | 中文 | [Русский](https://github.com/Astemiir/dsh-client-locale-ru/blob/main/docs/README.ru.md)
 
 ## 安装
 
