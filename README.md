@@ -3,7 +3,7 @@
 Community **Russian** localization for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) web UI.
 It registers the `ru` language through the public locale API — `locale.addLanguage()` + `locale.register()` — so **Русский** appears in the language picker next to **English** and **中文**.
 
-**Coverage:** 52 namespaces, **2626 strings** (`ru-dicts.json`).
+**Coverage:** 63 namespaces, **3119 strings** (`ru-dicts.json`).
 
 English | [中文](README.zh.md) | [Русский](README.ru.md)
 

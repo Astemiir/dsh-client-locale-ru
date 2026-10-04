@@ -3,7 +3,7 @@
 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）网页界面的社区**俄语**本地化。
 它通过公开的 locale API（`locale.addLanguage()` + `locale.register()`）注册 `ru` 语言，因此语言选择菜单里会在 **English** 和 **中文** 旁边出现 **Русский**。
 
-**覆盖范围：** 52 个 namespace，**2626 条字符串**（`ru-dicts.json`）。
+**覆盖范围：** 63 个 namespace，**3119 条字符串**（`ru-dicts.json`）。
 
 [English](README.md) | 中文 | [Русский](README.ru.md)
 

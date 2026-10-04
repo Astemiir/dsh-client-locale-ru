@@ -3,7 +3,7 @@
 Русская локализация интерфейса [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) — общественный перевод.
 Плагин регистрирует язык `ru` через публичный API локали (`locale.addLanguage()` + `locale.register()`), поэтому в меню выбора языка рядом с **English** и **中文** появляется **Русский**.
 
-**Объём:** 52 namespace, **2626 строк** (`ru-dicts.json`).
+**Объём:** 63 namespace, **3119 строк** (`ru-dicts.json`).
 
 [English](README.md) | [中文](README.zh.md) | Русский
 
