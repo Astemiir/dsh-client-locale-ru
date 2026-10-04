@@ -1,0 +1,3 @@
+- insert:
+    - id: locale-ru
+      name: 'dsh-client-locale-ru'

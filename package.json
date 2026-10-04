@@ -1,0 +1,56 @@
+{
+  "name": "dsh-client-locale-ru",
+  "version": "0.2.0",
+  "description": "Russian localization for the DeepSeek Harness (dsh) web UI — registers the `ru` language (52 namespaces, 2626 strings)",
+  "type": "module",
+  "license": "MIT",
+  "author": "Astemiir",
+  "homepage": "https://github.com/Astemiir/dsh-client-locale-ru",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Astemiir/dsh-client-locale-ru.git"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "i18n",
+    "locale",
+    "russian",
+    "ru"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "meta": {
+    "title": "Русский язык",
+    "description": "Русская локализация интерфейса Harness (52 namespace, 2626 строк)."
+  },
+  "scripts": {
+    "build": "node make-client.js"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "ru-dicts.json",
+    "make-client.js",
+    "README.md"
+  ]
+}
