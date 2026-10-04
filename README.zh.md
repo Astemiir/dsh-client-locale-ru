@@ -14,7 +14,7 @@
 ```sh
 # 使用本仓库的本地目录
 dsh plugin --profile web add /path/to/dsh-client-locale-ru
-# 或，如果已发布到 npm
+# 或从 npm 安装
 dsh plugin --profile web add dsh-client-locale-ru
 ```
 

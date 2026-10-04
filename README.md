@@ -14,7 +14,7 @@ The plugin is a `dsh` **bundle**: it declares `dsh.bundle.patch` (the loader pat
 ```sh
 # from a local checkout of this repository
 dsh plugin --profile web add /path/to/dsh-client-locale-ru
-# or, once published to npm
+# or from npm
 dsh plugin --profile web add dsh-client-locale-ru
 ```
 

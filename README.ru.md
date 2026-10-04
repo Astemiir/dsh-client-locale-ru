@@ -14,7 +14,7 @@
 ```sh
 # из локальной копии этого репозитория
 dsh plugin --profile web add /path/to/dsh-client-locale-ru
-# или, если опубликовано в npm
+# или из npm
 dsh plugin --profile web add dsh-client-locale-ru
 ```
 
