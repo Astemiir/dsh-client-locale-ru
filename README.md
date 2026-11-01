@@ -7,6 +7,18 @@ It registers the `ru` language through the public locale API — `locale.addLang
 
 English | [中文](https://github.com/Astemiir/dsh-client-locale-ru/blob/main/docs/README.zh.md) | [Русский](https://github.com/Astemiir/dsh-client-locale-ru/blob/main/docs/README.ru.md)
 
+## Quick start
+
+```sh
+# install into the profile you use: web UI or the desktop app
+dsh plugin --profile web add dsh-client-locale-ru
+dsh plugin --profile desktop add dsh-client-locale-ru
+```
+
+Restart the client (the web UI only needs a page reload) and pick **Русский** in *Settings → Language*. Nothing else to configure — the plugin registers the `ru` locale with all 3477 strings.
+
+No npm access? Take `dsh-client-locale-ru-0.2.3.tgz` from [Releases](https://github.com/Astemiir/dsh-client-locale-ru/releases/latest), unpack it, and install the folder: `dsh plugin --profile web add <path-to-folder>`.
+
 ## Install
 
 The plugin is a `dsh` **bundle**: it declares `dsh.bundle.patch` (the loader patch that inserts the `locale-ru` row) and `dsh.client` (the browser module). Install it into a profile:

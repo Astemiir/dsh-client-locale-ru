@@ -7,6 +7,18 @@
 
 [English](https://github.com/Astemiir/dsh-client-locale-ru/blob/main/README.md) | 中文 | [Русский](https://github.com/Astemiir/dsh-client-locale-ru/blob/main/docs/README.ru.md)
 
+## 快速开始
+
+```sh
+# 装到你使用的 profile：网页界面或桌面应用
+dsh plugin --profile web add dsh-client-locale-ru
+dsh plugin --profile desktop add dsh-client-locale-ru
+```
+
+重启客户端（网页界面刷新页面即可），在 *设置 → 语言* 中选择 **Русский**。无需其他配置——插件会自行注册 `ru` 语言并带上全部 3477 条字符串。
+
+无法访问 npm？从 [Releases](https://github.com/Astemiir/dsh-client-locale-ru/releases/latest) 下载 `dsh-client-locale-ru-0.2.3.tgz`，解压后安装该目录：`dsh plugin --profile web add <目录路径>`。
+
 ## 安装
 
 本插件是一个 `dsh` **bundle**：声明了 `dsh.bundle.patch`（插入 `locale-ru` 一行的 loader 补丁）和 `dsh.client`（浏览器模块）。把它安装到某个 profile：

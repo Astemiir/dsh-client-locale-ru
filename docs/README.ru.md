@@ -7,6 +7,18 @@
 
 [English](https://github.com/Astemiir/dsh-client-locale-ru/blob/main/README.md) | [中文](https://github.com/Astemiir/dsh-client-locale-ru/blob/main/docs/README.zh.md) | Русский
 
+## Быстрый старт
+
+```sh
+# в профиль, которым пользуетесь: веб-интерфейс или приложение
+dsh plugin --profile web add dsh-client-locale-ru
+dsh plugin --profile desktop add dsh-client-locale-ru
+```
+
+Перезапустите клиент (веб-интерфейсу хватит обновления страницы) и выберите **Русский** в *Настройки → Язык*. Больше настраивать нечего — плагин сам регистрирует локаль `ru` со всеми 3477 строками.
+
+Нет доступа к npm? Возьмите `dsh-client-locale-ru-0.2.3.tgz` из [релизов](https://github.com/Astemiir/dsh-client-locale-ru/releases/latest), распакуйте и установите папку: `dsh plugin --profile web add <путь-к-папке>`.
+
 ## Установка
 
 Плагин — это `dsh`-**bundle**: он объявляет `dsh.bundle.patch` (патч загрузчика, вставляющий строку `locale-ru`) и `dsh.client` (браузерный модуль). Установка в профиль:
